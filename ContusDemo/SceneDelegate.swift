@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  ContusDemo
 //
-//  Created by R, Naveen Kumar on 20/01/21.
-//  Copyright © 2021 naveen. All rights reserved.
+//  Created by Prabu on 20/01/21.
+//  Copyright © 2021 prabu. All rights reserved.
 //
 
 import UIKit

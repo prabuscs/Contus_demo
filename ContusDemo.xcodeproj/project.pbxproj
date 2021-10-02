@@ -15,6 +15,9 @@
 		ED380F2C25B8333200B32528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED380F2A25B8333200B32528 /* LaunchScreen.storyboard */; };
 		ED380F3725B8333300B32528 /* ContusDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380F3625B8333300B32528 /* ContusDemoTests.swift */; };
 		ED380F4225B8333300B32528 /* ContusDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380F4125B8333300B32528 /* ContusDemoUITests.swift */; };
+		ED380F5225B8342900B32528 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380F5125B8342900B32528 /* DataManager.swift */; };
+		ED380F5425B854A100B32528 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380F5325B854A100B32528 /* ListViewController.swift */; };
+		ED380F5625B854B300B32528 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED380F5525B854B300B32528 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		ED380F3D25B8333300B32528 /* ContusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED380F4125B8333300B32528 /* ContusDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContusDemoUITests.swift; sourceTree = "<group>"; };
 		ED380F4325B8333300B32528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED380F5125B8342900B32528 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		ED380F5325B854A100B32528 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		ED380F5525B854B300B32528 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				ED380F1F25B8333100B32528 /* AppDelegate.swift */,
 				ED380F2125B8333100B32528 /* SceneDelegate.swift */,
 				ED380F2325B8333100B32528 /* ViewController.swift */,
+				ED380F5325B854A100B32528 /* ListViewController.swift */,
+				ED380F5525B854B300B32528 /* DetailViewController.swift */,
+				ED380F5125B8342900B32528 /* DataManager.swift */,
 				ED380F2525B8333100B32528 /* Main.storyboard */,
 				ED380F2825B8333200B32528 /* Assets.xcassets */,
 				ED380F2A25B8333200B32528 /* LaunchScreen.storyboard */,
@@ -262,6 +271,9 @@
 				ED380F2425B8333100B32528 /* ViewController.swift in Sources */,
 				ED380F2025B8333100B32528 /* AppDelegate.swift in Sources */,
 				ED380F2225B8333100B32528 /* SceneDelegate.swift in Sources */,
+				ED380F5625B854B300B32528 /* DetailViewController.swift in Sources */,
+				ED380F5425B854A100B32528 /* ListViewController.swift in Sources */,
+				ED380F5225B8342900B32528 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.ContusDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = prabu.ContusDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.ContusDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = prabu.ContusDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +489,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.ContusDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = prabu.ContusDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,7 +510,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.ContusDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = prabu.ContusDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -517,7 +529,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.ContusDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = prabu.ContusDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,7 +548,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.ContusDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = prabu.ContusDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
