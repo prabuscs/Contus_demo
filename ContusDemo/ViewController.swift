@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     /// Method to append stub data
     fileprivate func appendData() {
         commonArray.removeAll()
-        commonArray.append(Items(title: "Honda", Description: nil, img: "1"))
+        commonArray.append(Items(title: "BMW", Description: nil, img: "1"))
         commonArray.append(Items(title: "GMC", Description: nil, img: "2"))
         commonArray.append(Items(title: "Chrysler", Description: nil, img: "3"))
         commonArray.append(Items(title: "Chevrolet", Description: nil, img: "4"))
